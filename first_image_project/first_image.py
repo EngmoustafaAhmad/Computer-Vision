@@ -14,7 +14,8 @@ img = cv2.imread(
 cv2.imshow('First Image', img)
 
 # Wait for keyboard input
-k = cv2.waitKey(0)
+k = cv2.waitKey(5000)
+cv2.destroyAllWindows()
 
 if k == 27:  # ESC key
     cv2.destroyAllWindows()
